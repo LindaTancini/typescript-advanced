@@ -5,7 +5,6 @@
   "scripts": {
     "1": "npx ts-node 01/esercizi.ts",
     "2": "npx ts-node 02/esercizi.ts",
-    "3": "npx ts-node 03/esercizi.ts",
-    "4": "npx ts-node 04/esercizi.ts"
+    "3": "npx ts-node 03/esercizi.ts"
   }
 }
