@@ -1,6 +1,6 @@
-# TypeScript Architecture 🏗️
+# TypeScript Advanced 🏗️
 
-**TypeScript Architecture** è una repository didattica progettata per esplorare come strutturare progetti TypeScript in modo modulare, scalabile e manutenibile.  
+**TypeScript Advanced** è una repository didattica progettata per esplorare come strutturare progetti TypeScript in modo modulare, scalabile e manutenibile.  
 Qui troverai esempi pratici su come organizzare il codice in **cartelle**, **moduli**, **interfacce**, **classi**, con una separazione chiara tra logica, modelli e flusso principale.
 
 ## 🗂️ Struttura del progetto
