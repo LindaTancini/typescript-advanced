@@ -77,11 +77,14 @@ function stampaValore(valore: /* ? */) {
 
 ```ts
 // TODO:
-// 1. Crea un tipo generico `EstraiTipoPromise<T>` che, se `T` è una `Promise<U>`, ritorna `U`. Altrimenti ritorna `mai`.
-// 2. Usa il tipo con una `Promise<string>` e verifica che venga estratto correttamente.
+// 1. Crea un tipo generico `ElementoArray<T>` che, se `T` è un array (es. `string[]`), restituisce il tipo dell’elemento interno.
+//    Altrimenti restituisce `mai`.
+// 2. Usa il tipo con un array di stringhe, numeri e un tipo non array per testarlo.
 
-type EstraiTipoPromise<T> = /* ? */
+type ElementoArray<T> = /* ? */
 
-// const risultato: EstraiTipoPromise<Promise<string>> // dovrebbe essere "string"
-
+// Esempi da testare:
+// const uno: ElementoArray<string[]>         // deve essere string
+// const due: ElementoArray<number[]>         // deve essere number
+// const tre: ElementoArray<boolean>          // deve essere mai
 ```
